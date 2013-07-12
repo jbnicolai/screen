@@ -1,0 +1,11 @@
+startup_message off
+
+#defbce on
+defutf8 on
+altscreen on
+
+term screen-256color
+#caption always "%{=r gk} %-w%{=b kg}%50>%n%f* %t%{-}%+Lw%<%{- Wk}"
+#hardstatus alwayslastline "%{=r gk} %-w%{=b kg}%50>%n%f* %t%{-}%+Lw%<%{- Wk}%=%{= dd}"
+hardstatus ignore
+#hardstatus off
